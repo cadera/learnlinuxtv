@@ -1,7 +1,10 @@
 [almalinux]
-192.168.0.111 ansible_user=almalinux ansible_ssh_pass=almalinux
-192.168.0.126 ansible_user=almalinux ansible_ssh_pass=almalinux 
+#192.168.0.111 ansible_user=almalinux ansible_ssh_pass=almalinux ansible_python_interpreter=/usr/bin/python3.9
+#192.168.0.126 ansible_user=almalinux ansible_ssh_pass=almalinux ansible_python_interpreter=/usr/bin/python3.9
 
-[credentials]
+
+192.168.56.102 ansible_user=almalinux ansible_ssh_pass=almalinux
+192.168.56.103 ansible_user=almalinux ansible_ssh_pass=almalinux
+
 
 
