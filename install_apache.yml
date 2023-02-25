@@ -1,19 +1,40 @@
 ---
-
 - hosts: all
   become: true
   tasks:
-  - name: Update repository index
+  - name: Update repository index AlmaLinux
     dnf: 
       update_cache: yes
+    when: ansible_distribution == 'AlmaLinux'
 
-  - name: Install apache package
+  - name: Install apache package AlmaLinux
     dnf:
       name: httpd
       state: latest
+    when: ansible_distribution == 'AlmaLinux'
 
   - name:  add php support for apache
     dnf:
       name: php-fpm
       state: latest
+    when: ansible_distribution == 'AlmaLinux'
+      
+  - name: Update repository index Ubuntu
+    apt: 
+      update_cache: yes
+    when: ansible_distribution == 'Ubuntu'
 
+  - name: Install apache2 package Ubuntu
+    apt:
+      name: apache2
+      state: latest
+    when: ansible_distribution == 'Ubuntu'
+
+  - name:  add php support for apache Ubuntu
+    apt:
+      name: libapache2-mod-php
+      state: latest
+    when: ansible_distribution == 'Ubuntu'
+
+
+ 
