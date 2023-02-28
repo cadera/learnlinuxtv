@@ -36,6 +36,16 @@
           - php-fpm
         state: latest
       when: ansible_distribution == 'AlmaLinux'
+
+    - name: copy deafault html file for site
+      tags: apache,almalinux,httpd
+      copy:
+        src: default_site.html
+        dest: /var/www/html/index.html
+        owner: root
+        group: root
+        mode: 0644
+
 - hosts: db_servers
   become: true
   tasks:
@@ -45,7 +55,7 @@
         name: mariadb-server
         state: latest
       when: ansible_distribution == "Ubuntu"
-      
+
 - hosts: file_servers
   become: true
   tasks:
@@ -54,4 +64,3 @@
       package:
         name: samba
         state: latest
-
