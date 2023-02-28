@@ -2,9 +2,16 @@
 #192.168.0.111 ansible_user=almalinux ansible_ssh_pass=almalinux ansible_python_interpreter=/usr/bin/python3.9
 #192.168.0.126 ansible_user=almalinux ansible_ssh_pass=almalinux ansible_python_interpreter=/usr/bin/python3.9
 
+#up to video 8
+# 192.168.56.102 ansible_user=almalinux ansible_ssh_pass=almalinux
+# 192.168.56.103 ansible_user=almalinux ansible_ssh_pass=almalinux
+# 192.168.56.105 ansible_user=test ansible_ssh_pass=test
 
+[web_servers]
 192.168.56.102 ansible_user=almalinux ansible_ssh_pass=almalinux
+
+[file_servers]
 192.168.56.103 ansible_user=almalinux ansible_ssh_pass=almalinux
 
-
-
+[db_servers]
+192.168.56.105 ansible_user=test ansible_ssh_pass=test

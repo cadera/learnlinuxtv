@@ -1,0 +1,266 @@
+{
+    "plays": [
+        {
+            "___progress": "100%",
+            "__changed": 0,
+            "__failed": 3,
+            "__ignored": 0,
+            "__in progress": 0,
+            "__ok": 0,
+            "__percent_complete": 100,
+            "__play_name": "all",
+            "__progress": "Complete",
+            "__skipped": 0,
+            "__task_count": 3,
+            "__unreachable": 0,
+            "name": "all",
+            "pattern": "all",
+            "play": "all",
+            "play_pattern": "all",
+            "play_uuid": "c24bbaae-9662-424c-aad0-000000000004",
+            "playbook": "/home/ceci/learnlinuxtv/site.yml",
+            "playbook_uuid": "ba65d166-2c1e-47c1-937d-6cf70fa68a8a",
+            "tasks": [
+                {
+                    "__changed": false,
+                    "__duration": "0s",
+                    "__host": "192.168.56.102",
+                    "__number": 0,
+                    "__result": "Failed",
+                    "__task": "Gathering Facts",
+                    "__task_action": "gather_facts",
+                    "duration": 0.154891,
+                    "end": "2023-02-26T19:14:41.134998",
+                    "event_loop": null,
+                    "host": "192.168.56.102",
+                    "ignore_errors": null,
+                    "play": "all",
+                    "play_pattern": "all",
+                    "play_uuid": "c24bbaae-9662-424c-aad0-000000000004",
+                    "playbook": "/home/ceci/learnlinuxtv/site.yml",
+                    "playbook_uuid": "ba65d166-2c1e-47c1-937d-6cf70fa68a8a",
+                    "remote_addr": "192.168.56.102",
+                    "res": {
+                        "_ansible_no_log": false,
+                        "msg": "to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program"
+                    },
+                    "resolved_action": "ansible.builtin.gather_facts",
+                    "start": "2023-02-26T19:14:40.980107",
+                    "task": "Gathering Facts",
+                    "task_action": "gather_facts",
+                    "task_args": "",
+                    "task_path": "/home/ceci/learnlinuxtv/site.yml:2",
+                    "task_uuid": "c24bbaae-9662-424c-aad0-00000000000f",
+                    "uuid": "52d838ab-44be-4a20-9550-6916c6d2a729"
+                },
+                {
+                    "__changed": false,
+                    "__duration": "0s",
+                    "__host": "192.168.56.103",
+                    "__number": 1,
+                    "__result": "Failed",
+                    "__task": "Gathering Facts",
+                    "__task_action": "gather_facts",
+                    "duration": 0.135603,
+                    "end": "2023-02-26T19:14:41.171118",
+                    "event_loop": null,
+                    "host": "192.168.56.103",
+                    "ignore_errors": null,
+                    "play": "all",
+                    "play_pattern": "all",
+                    "play_uuid": "c24bbaae-9662-424c-aad0-000000000004",
+                    "playbook": "/home/ceci/learnlinuxtv/site.yml",
+                    "playbook_uuid": "ba65d166-2c1e-47c1-937d-6cf70fa68a8a",
+                    "remote_addr": "192.168.56.103",
+                    "res": {
+                        "_ansible_no_log": false,
+                        "msg": "to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program"
+                    },
+                    "resolved_action": "ansible.builtin.gather_facts",
+                    "start": "2023-02-26T19:14:41.035515",
+                    "task": "Gathering Facts",
+                    "task_action": "gather_facts",
+                    "task_args": "",
+                    "task_path": "/home/ceci/learnlinuxtv/site.yml:2",
+                    "task_uuid": "c24bbaae-9662-424c-aad0-00000000000f",
+                    "uuid": "187b2c58-a2b5-42d9-87ea-ce7a52b19475"
+                },
+                {
+                    "__changed": false,
+                    "__duration": "0s",
+                    "__host": "192.168.56.105",
+                    "__number": 2,
+                    "__result": "Failed",
+                    "__task": "Gathering Facts",
+                    "__task_action": "gather_facts",
+                    "duration": 0.122358,
+                    "end": "2023-02-26T19:14:41.239982",
+                    "event_loop": null,
+                    "host": "192.168.56.105",
+                    "ignore_errors": null,
+                    "play": "all",
+                    "play_pattern": "all",
+                    "play_uuid": "c24bbaae-9662-424c-aad0-000000000004",
+                    "playbook": "/home/ceci/learnlinuxtv/site.yml",
+                    "playbook_uuid": "ba65d166-2c1e-47c1-937d-6cf70fa68a8a",
+                    "remote_addr": "192.168.56.105",
+                    "res": {
+                        "_ansible_no_log": false,
+                        "msg": "to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program"
+                    },
+                    "resolved_action": "ansible.builtin.gather_facts",
+                    "start": "2023-02-26T19:14:41.117624",
+                    "task": "Gathering Facts",
+                    "task_action": "gather_facts",
+                    "task_args": "",
+                    "task_path": "/home/ceci/learnlinuxtv/site.yml:2",
+                    "task_uuid": "c24bbaae-9662-424c-aad0-00000000000f",
+                    "uuid": "abb6880d-fa6b-4920-a99b-0ddd7b3f23c3"
+                }
+            ],
+            "uuid": "c24bbaae-9662-424c-aad0-000000000004"
+        }
+    ],
+    "settings_entries": {
+        "ansible-navigator": {
+            "ansible": {
+                "config": {
+                    "help": false
+                },
+                "doc": {
+                    "help": false,
+                    "plugin": {
+                        "type": "module"
+                    }
+                },
+                "inventory": {
+                    "entries": [
+                        "/home/ceci/learnlinuxtv/inventory"
+                    ],
+                    "help": false
+                },
+                "playbook": {
+                    "help": false,
+                    "path": "/home/ceci/learnlinuxtv/site.yml"
+                }
+            },
+            "ansible-builder": {
+                "help": false,
+                "workdir": "/home/ceci/learnlinuxtv"
+            },
+            "app": "run",
+            "collection-doc-cache-path": "/home/ceci/.cache/ansible-navigator/collection_doc_cache.db",
+            "color": {
+                "enable": true,
+                "osc4": true
+            },
+            "editor": {
+                "command": "vi +{line_number} {filename}",
+                "console": true
+            },
+            "exec": {
+                "command": "/bin/bash",
+                "shell": true
+            },
+            "execution-environment": {
+                "container-engine": "podman",
+                "enabled": true,
+                "image": "ghcr.io/ansible/creator-ee:latest",
+                "pull": {
+                    "policy": "tag"
+                }
+            },
+            "images": {
+                "details": [
+                    "everything"
+                ]
+            },
+            "logging": {
+                "append": true,
+                "file": "/home/ceci/learnlinuxtv/ansible-navigator.log",
+                "level": "warning"
+            },
+            "mode": "interactive",
+            "playbook-artifact": {
+                "enable": true,
+                "save-as": "{playbook_dir}/{playbook_name}-artifact-{time_stamp}.json"
+            },
+            "settings": {
+                "effective": false,
+                "sample": false,
+                "schema": "json",
+                "sources": false
+            },
+            "time-zone": "UTC"
+        }
+    },
+    "settings_sources": {
+        "ansible-navigator.ansible-builder.help": "Defaults",
+        "ansible-navigator.ansible-builder.workdir": "Defaults",
+        "ansible-navigator.ansible-lint.config": "Not set",
+        "ansible-navigator.ansible-lint.lintables": "Not set",
+        "ansible-navigator.ansible-runner.artifact-dir": "Not set",
+        "ansible-navigator.ansible-runner.rotate-artifacts-count": "Not set",
+        "ansible-navigator.ansible-runner.timeout": "Not set",
+        "ansible-navigator.ansible.cmdline": "Not set",
+        "ansible-navigator.ansible.config.help": "Defaults",
+        "ansible-navigator.ansible.config.path": "Not set",
+        "ansible-navigator.ansible.doc.help": "Defaults",
+        "ansible-navigator.ansible.doc.plugin.name": "Not set",
+        "ansible-navigator.ansible.doc.plugin.type": "Defaults",
+        "ansible-navigator.ansible.inventory.entries": "Ansible configuration file",
+        "ansible-navigator.ansible.inventory.help": "Defaults",
+        "ansible-navigator.ansible.playbook.help": "Defaults",
+        "ansible-navigator.ansible.playbook.path": "Previous cli command",
+        "ansible-navigator.app": "Command line",
+        "ansible-navigator.collection-doc-cache-path": "Defaults",
+        "ansible-navigator.color.enable": "Defaults",
+        "ansible-navigator.color.osc4": "Defaults",
+        "ansible-navigator.editor.command": "Defaults",
+        "ansible-navigator.editor.console": "Defaults",
+        "ansible-navigator.exec.command": "Defaults",
+        "ansible-navigator.exec.shell": "Defaults",
+        "ansible-navigator.execution-environment.container-engine": "Previous cli command",
+        "ansible-navigator.execution-environment.container-options": "Not set",
+        "ansible-navigator.execution-environment.enabled": "Previous cli command",
+        "ansible-navigator.execution-environment.environment-variables.pass": "Not set",
+        "ansible-navigator.execution-environment.environment-variables.set": "Not set",
+        "ansible-navigator.execution-environment.image": "Previous cli command",
+        "ansible-navigator.execution-environment.pull.arguments": "Not set",
+        "ansible-navigator.execution-environment.pull.policy": "Defaults",
+        "ansible-navigator.execution-environment.volume-mounts": "Not set",
+        "ansible-navigator.images.details": "Defaults",
+        "ansible-navigator.inventory-columns": "Not set",
+        "ansible-navigator.logging.append": "Defaults",
+        "ansible-navigator.logging.file": "Defaults",
+        "ansible-navigator.logging.level": "Defaults",
+        "ansible-navigator.mode": "Defaults",
+        "ansible-navigator.playbook-artifact.enable": "Defaults",
+        "ansible-navigator.playbook-artifact.replay": "Not set",
+        "ansible-navigator.playbook-artifact.save-as": "Defaults",
+        "ansible-navigator.settings.effective": "Defaults",
+        "ansible-navigator.settings.sample": "Defaults",
+        "ansible-navigator.settings.schema": "Defaults",
+        "ansible-navigator.settings.sources": "Defaults",
+        "ansible-navigator.time-zone": "Defaults",
+        "settings_file_path": "None",
+        "settings_file_source": "None"
+    },
+    "status": "failed",
+    "status_color": 9,
+    "stdout": [
+        "",
+        "PLAY [all] *********************************************************************",
+        "",
+        "TASK [Gathering Facts] *********************************************************",
+        "\u001b[0;31mfatal: [192.168.56.102]: FAILED! => {\"msg\": \"to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program\"}\u001b[0m",
+        "\u001b[0;31mfatal: [192.168.56.103]: FAILED! => {\"msg\": \"to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program\"}\u001b[0m",
+        "\u001b[0;31mfatal: [192.168.56.105]: FAILED! => {\"msg\": \"to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program\"}\u001b[0m",
+        "",
+        "PLAY RECAP *********************************************************************",
+        "\u001b[0;31m192.168.56.102\u001b[0m             : ok=0    changed=0    unreachable=0    \u001b[0;31mfailed=1   \u001b[0m skipped=0    rescued=0    ignored=0   ",
+        "\u001b[0;31m192.168.56.103\u001b[0m             : ok=0    changed=0    unreachable=0    \u001b[0;31mfailed=1   \u001b[0m skipped=0    rescued=0    ignored=0   ",
+        "\u001b[0;31m192.168.56.105\u001b[0m             : ok=0    changed=0    unreachable=0    \u001b[0;31mfailed=1   \u001b[0m skipped=0    rescued=0    ignored=0   "
+    ],
+    "version": "2.0.0"
+}
